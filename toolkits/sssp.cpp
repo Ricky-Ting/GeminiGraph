@@ -19,7 +19,7 @@ Copyright (c) 2014-2015 Xiaowei Zhu, Tsinghua University
 
 #include "core/graph.hpp"
 
-typedef float Weight;
+typedef int Weight;
 
 void compute(Graph<Weight> * graph, VertexId root) {
   double exec_time = 0;
