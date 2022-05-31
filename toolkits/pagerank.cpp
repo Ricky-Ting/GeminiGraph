@@ -142,7 +142,7 @@ int main(int argc, char ** argv) {
   int iterations = std::atoi(argv[3]);
 
   compute(graph, iterations);
-  for (int run=0;run<5;run++) {
+  for (int run=0;run<1;run++) {
     compute(graph, iterations);
   }
 
